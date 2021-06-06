@@ -13,3 +13,6 @@ print(products)
 	# p.append(name)
 	# p.append(price)
 	# products.append(p)
+
+for product in products:
+	print(product[0], '的價格是', product[1], '元')
